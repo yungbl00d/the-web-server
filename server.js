@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
   //res.send('<h1>hello</h1>');
   res.render('home.hbs', {
     pageTitle: 'Home page',
-    welcomeMessage: 'what up homie'
+    welcomeMessage: 'Çiçek I love you\n -Theo'
   });
 });
 
