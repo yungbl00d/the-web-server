@@ -38,6 +38,14 @@ app.get('/', (req, res) => {
   });
 });
 
+app.get('/projects', (req, res) => {
+
+  res.render('projects.hbs', {
+    pageTitle: 'project page',
+    welcomeMessage: 'welcome to my home'
+  });
+});
+
 app.get('/about', (req, res) => {
   res.render('about.hbs', {
     pageTitle: 'About page',
